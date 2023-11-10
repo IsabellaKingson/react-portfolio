@@ -1,8 +1,10 @@
+import profileImg from "../assets/Profile-image.jpeg";
+
 export default function AboutMe() {
   return (
     <div>
       <h2>About Me</h2>
-      <img src="../assets/Profile-image.jpeg"></img>
+      <img src={profileImg}></img>
       <p>
         My name is Isabella Kingson. I am a homegrown Minnesotan orginating from
         Minneapolis, but I currently reside in Saint Paul. I live with my

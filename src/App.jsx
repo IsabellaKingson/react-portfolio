@@ -1,18 +1,17 @@
 import { Outlet } from "react-router-dom";
-import Nav from "./components/NavTabs";
+import NavTabs from "./components/NavTabs";
 import Footer from "./components/Footer"
 
 function App() {
   return (
     <>
-      <header>
-        <h1>Isabella Kingson</h1>
-        <Nav />
+      <header className="container">
+        <NavTabs />
       </header>
-      <main className="portfolio-app">
+      <main className="portfolio-app container">
         <Outlet />
       </main>
-      <footer>
+      <footer className="container">
         <Footer />
       </footer>
     </>
